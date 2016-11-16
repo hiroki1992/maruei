@@ -1,0 +1,181 @@
+@charset "UTF-8";
+html{height:100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+body {
+  height: 100%;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: #FFFFFF url(images/bg.gif) repeat-x top;
+	font: 80%/2 "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+h1,h2,h3,p,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+iframe {
+	margin-bottom: 20px;
+}
+.color1 {
+	color: #FF0000;
+}
+
+@media(max-width:480px){
+    .mod-sampleBlock .mod-sampleBlock-image {
+        float:none;
+        margin:0 00px;
+    }
+    .mod-sampleBlock .mod-sampleBlock-image img{margin:0 auto;}
+}
+
+/*コンテナ（HP枠）
+------------------------------------------------------------------*/
+#container {
+	text-align: left;
+position: relative;
+min-height: 100%;
+  width: 700px;
+height: auto !important;
+ height: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+margin-bottom: auto;
+  border: 1px solid #a0a0a0;
+	background: #FFFFFF;
+}
+
+
+/*ヘッダー
+------------------------------------------------------------------*/
+#header {
+	background: url(images/header_bg.gif) no-repeat left top;
+	height: 100px; width:100%;
+	position: relative;
+}
+#header h1 {
+	font-size: 11px;
+	color: #FFFFFF;
+	padding-left: 10px;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+/*メインイメージ
+------------------------------------------------------------------*/
+#main-img {
+	padding-bottom: 6px;
+	background: url(images/main_img_bottom.gif) repeat-x bottom;
+}
+
+
+/*メインメニュー
+------------------------------------------------------------------*/
+#menu {
+	background: url(images/menu_06.gif) repeat-x;
+	height: 56px;
+}
+#menu li {
+	display: inline-block;
+}
+
+
+/*メインコンテンツ
+------------------------------------------------------------------*/
+#main {
+	float: left;
+	width: 680px;
+min-height: 100%;
+height:  auto !important;
+height: 100%;
+  margin-left: 10px;
+	margin-top: 10px;
+overflow:auto;
+padding-bottom:30px; }
+
+#table{
+  text-align: center;}
+
+
+/*サブコンテンツ
+------------------------------------------------------------------*/
+#sub {
+	float: right;
+	width: 252px;
+	display: inline;
+	margin-right: 10px;
+	margin-top: 30px;
+	font-size: 85%;
+}
+#main h2 {
+	height: 29px;
+	margin: 20px 0px 5px;
+}
+#sub .frame {
+	background: url(images/sub_frame_bg.gif) no-repeat bottom;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+#sub h3 {
+	background: url(images/sub_midashi_bg.gif) no-repeat;
+	height: 46px;
+	width: 252px;
+	margin-right: -10px;s
+	margin-left: -10px;
+}
+
+
+
+
+/*フッター
+-----------------------------------------------ｚ-------------------*/
+#footer {
+	clear: both;
+	bottom: 0;
+height: 30px;
+  width: 700px;
+  background: #1b617a;
+	color: #FFFFFF;
+	text-align: center;
+}
+#footer a {
+	color: #FFFFFF;
+}
+
+
+/*強調文字（背景赤に白文字になります。）
+------------------------------------------------------------------*/
+.look {
+	color: #FFFFFF;
+	font-weight: bold;
+	background: #990000;
+}
+
+
+/*clearfix
+------------------------------------------------------------------*/
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */

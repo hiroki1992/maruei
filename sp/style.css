@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@media screen
+html{height:100%;
+width:100%
+min-width;100%;
+
+  margin: 0px;
+  padding: 0px;
+
+ body{
+ overflow: hidden;
+  height: 100%;
+  min-height: 100%;
+min-width: 100%;
+  color: #333333;
+	padding: 0px;
+margin:0px;
+  text-align: center;
+	font: 80%/2 "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}}
+h1,h2,h3,p,ul,li{
+	margin: 5px;
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+img {
+	border: none;
+	vertical-align: top;
+  position: left;
+}
+}
+.color1 {
+	color: #FF0000;
+}
+
+wrap{overflow: hidden;}
+
+/*コンテナ（HP枠）
+------------------------------------------------------------------*/
+#container {
+	text-align: left;
+position: relative;    
+height: 100% !important;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+margin-bottom: auto;
+
+}
+
+
+/*ヘッダー
+------------------------------------------------------------------*/
+#header {
+  padding-top:1px;
+margin: 0px;
+  background: url(images/header_bg.gif) no-repeat left top;
+	width:100%;
+	position: relative;
+}
+
+#header h1 {
+	font-size: 11px;
+	color: #FFFFFF;
+	padding-left: 10px;
+	font-weight: normal;
+	padding-top:0px;
+}
+
+/*メインイメージ
+------------------------------------------------------------------*/
+
+
+
+/*メインメニュー
+------------------------------------------------------------------*/
+#menu {
+	background: url(images/menu_06.gif) repeat-x;
+	height: 56px;
+}
+#menu li {
+	display: inline-block;
+}
+
+
+/*メインコンテンツ
+------------------------------------------------------------------*/
+#main {
+	float: left;
+	width: 100%;
+min-height: 100%;
+height:  auto !important;
+height: 100%;
+  margin-left: 0px;
+	margin-top: 10px;
+  margin-right: 10px;
+overflow:hidden;;
+padding-bottom:30px; }
+
+#table{
+  text-align: center;
+width:50%;
+height: auto;}
+
+
+
+
+
+/*About欄の矢印と下線設定
+------------------------------------------------------------------*/
+.arrow li {
+	background: url(images/arrow.gif) no-repeat left top;
+	padding-left: 0px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+
+/*フッター
+-----------------------------------------------ｚ-------------------*/
+#footer {
+	clear: both;
+	bottom: 0;
+height: 100%;
+  width: auto;
+  background: #1b617a;
+	color: #FFFFFF;
+	text-align: center;
+}
+#footer a {
+	color: #FFFFFF;
+}
+
+
+/*強調文字（背景赤に白文字になります。）
+------------------------------------------------------------------*/
+.look {
+	color: #FFFFFF;
+	font-weight: bold;
+	background: #990000;
+}
+
+
+/*clearfix
+------------------------------------------------------------------*/
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
